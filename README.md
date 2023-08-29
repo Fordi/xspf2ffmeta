@@ -1,6 +1,8 @@
 # xspf2ffmeta
 
-Usage: node . [playlist.xspf]
+Setup: `npm i`
+
+Usage: `node . [playlist.xspf]`
 
 You can create an XSPF bookmarks file by opening videos in VLC, then hitting `Ctrl+B`.  Each time you click "Create", a new timestamp will be logged.  You can alter the description by single-clicking on it.  You can then go to `Media -> Save Playlist as File...`, and save an xspf file with those bookmarks in it.
 
